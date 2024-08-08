@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/mefellows/vesper/encoding"
+	"github.com/Invoicing-Solution/vesper/encoding"
 )
 
 // ParserMiddleware is a middleware which unmarshals the original payload to the handler input parameter type with the given unmarshaler.
