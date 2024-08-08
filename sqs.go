@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"reflect"
 
+	"github.com/Invoicing-Solution/vesper/encoding"
 	"github.com/aws/aws-lambda-go/events"
-	"github.com/mefellows/vesper/encoding"
 )
 
 // SQSParserMiddleware transforms SQS event records into the handler input parameter type using the given unmarshaler.

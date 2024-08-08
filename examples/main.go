@@ -7,7 +7,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/mefellows/vesper"
+	"github.com/Invoicing-Solution/vesper"
 )
 
 type User struct {
